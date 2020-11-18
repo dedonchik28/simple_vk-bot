@@ -1,6 +1,6 @@
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
-key = ""
+key = "be798d82703344fac674442408d2b87b8d781425e22541dc3c78475e179a1d068bb1b01a17b021b7ff0da"
 # Авторизуемся как сообщество
 vk = vk_api.VkApi(token=key)
 
