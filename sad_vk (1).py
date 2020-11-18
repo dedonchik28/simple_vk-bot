@@ -22,5 +22,5 @@ for event in longpoll.listen():
         if event.to_me:
             text = event.text.lower()
             user_id = event.user_id
-              if text = "привет":
+              if text == "привет":
                 send(user_id, "куку")
